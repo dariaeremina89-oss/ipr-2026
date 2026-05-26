@@ -20,7 +20,7 @@
 
 ## Просмотр
 
-Открыть `index.html` локально или использовать GitHub Pages
+https://dariaeremina89-oss.github.io/ipr-2026/
 
 ---
 
