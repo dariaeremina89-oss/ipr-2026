@@ -1,0 +1,847 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ИПР Еремина Д.А. 2026 — промежуточные итоги</title>
+
+  <link rel="stylesheet" href="./style.css" />
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+
+<header class="hero">
+  <div class="container">
+
+    <span class="hero__label">
+      ИПР&nbsp;2026 — промежуточные итоги
+    </span>
+
+    <h1 class="hero__title">
+      Даша Еремина
+    </h1>
+
+    <p class="hero__text">
+      Развитие дизайн-системы, ее&nbsp;внедрение в&nbsp;продукты, поддержка команды и&nbsp;рост frontend-экспертизы
+    </p>
+
+    <div class="stats-grid">
+
+      <article class="stat-card stat-card--ds">
+        <div
+                class="stat-card__value"
+                data-counter="91"
+                data-suffix="%"
+        >
+          0%
+        </div>
+
+        <div class="stat-card__label">
+          Дизайн
+        </div>
+      </article>
+
+      <article class="stat-card stat-card--ds">
+        <div
+                class="stat-card__value"
+                data-counter="88"
+                data-suffix="%"
+        >
+          0%
+        </div>
+
+        <div class="stat-card__label">
+          Разработка
+        </div>
+      </article>
+
+      <article class="stat-card stat-card--ds">
+        <div
+                class="stat-card__value"
+                data-counter="58"
+                data-suffix="%"
+        >
+          0%
+        </div>
+
+        <div class="stat-card__label">
+          Дизайн-ревью
+        </div>
+      </article>
+
+      <article class="stat-card stat-card--product">
+        <div
+                class="stat-card__value"
+                data-counter="21"
+        >
+          0
+        </div>
+
+        <div class="stat-card__label">
+          Внедренный сценарий
+        </div>
+      </article>
+
+      <article class="stat-card stat-card--glossary">
+        <div
+                class="stat-card__value"
+                data-counter="20"
+        >
+          0
+        </div>
+
+        <div class="stat-card__label">
+          Описаний компонентов
+        </div>
+      </article>
+
+      <article class="stat-card stat-card--figma">
+        <div
+                class="stat-card__value"
+                data-counter="7"
+        >
+          0
+        </div>
+
+        <div class="stat-card__label">
+          Компонентов со&nbsp;Slots
+        </div>
+      </article>
+
+    </div>
+
+  </div>
+</header>
+
+<main>
+
+  <section class="section">
+    <div class="container">
+
+      <span class="hero__label">Фаза&nbsp;1</span>
+
+      <h2>Создание компонентов</h2>
+
+      <div class="cards cards--metrics">
+
+        <article class="card metric-card">
+          <div class="circle-progress" data-circle-progress="91">
+            <span data-counter="91" data-suffix="%">0%</span>
+          </div>
+
+          <h3>Дизайн</h3>
+
+          <ul>
+            <li>46&nbsp;из&nbsp;51 готовы</li>
+            <li>1&nbsp;в&nbsp;работе</li>
+            <li>4&nbsp;не&nbsp;начаты</li>
+          </ul>
+        </article>
+
+        <article class="card metric-card">
+          <div class="circle-progress" data-circle-progress="88">
+            <span data-counter="88" data-suffix="%">0%</span>
+          </div>
+
+          <h3>Разработка</h3>
+
+          <ul>
+            <li>24&nbsp;готовы</li>
+            <li>16&nbsp;ждут дизайн-ревью</li>
+            <li>3&nbsp;в&nbsp;работе</li>
+          </ul>
+        </article>
+
+        <article class="card metric-card">
+          <div class="circle-progress" data-circle-progress="58">
+            <span data-counter="58" data-suffix="%">0%</span>
+          </div>
+
+          <h3>Дизайн-ревью</h3>
+
+          <ul>
+            <li>19&nbsp;проверены</li>
+            <li>16&nbsp;ждут дизайн-ревью</li>
+            <li>2&nbsp;запланированы</li>
+          </ul>
+        </article>
+
+      </div>
+
+      <div class="cards">
+
+        <article class="card">
+          <h3>Production-ready ДС</h3>
+
+          <ul>
+            <li>Веду срез готовности и&nbsp;внедрения ДС</li>
+            <li>Дорабатываю компоненты в&nbsp;figma</li>
+            <li>Готовлю тест-кейсы</li>
+            <li>Тестирую в&nbsp;Storybook</li>
+          </ul>
+        </article>
+
+        <article class="card">
+          <h3>Основной вызов</h3>
+
+          <ul>
+            <li>Много компонентов ждут дизайн-ревью</li>
+            <li>Ревью делаю одна</li>
+            <li>Для&nbsp;ускорения увеличена квота на&nbsp;техдолг</li>
+          </ul>
+        </article>
+
+        <article class="card">
+          <h3>UX-глоссарий</h3>
+
+          <ul>
+            <li>Сделала 20&nbsp;описаний компонентов</li>
+            <li>Материалы используются как&nbsp;основа для&nbsp;Глоссария</li>
+            <li>Создала задачи в&nbsp;эпике FPE-225</li>
+            <li>На&nbsp;ревью единая структура описаний</li>
+          </ul>
+        </article>
+
+      </div>
+
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+
+      <span class="hero__label">Фаза 1</span>
+
+      <h2>Внедрение ДС в&nbsp;продукты</h2>
+
+      <div class="cards cards--metrics">
+
+        <article class="card metric-card">
+          <div class="circle-progress" data-circle-progress="88">
+            <span data-counter="88" data-suffix="%">0%</span>
+          </div>
+
+          <h3>Внедрение дизайна</h3>
+
+          <ul>
+            <li>ЛК — 82%</li>
+            <li>Конструктор — 60%</li>
+            <li>Доп. сервисы — 100%</li>
+            <li>Подписание ОК — 100%</li>
+            <li>Сайт — 100%</li>
+          </ul>
+        </article>
+
+        <article class="card metric-card">
+          <div class="circle-progress" data-circle-progress="42">
+            <span data-counter="42" data-suffix="%">0%</span>
+          </div>
+
+          <h3>Внедрение разработки</h3>
+
+          <ul>
+            <li>ЛК — 41%</li>
+            <li>Конструктор — 20%</li>
+            <li>Доп. сервисы — 57%</li>
+            <li>Подписание ОК — 45%</li>
+            <li>Сайт — 48%</li>
+          </ul>
+        </article>
+
+        <article class="card metric-card">
+          <div class="circle-progress" data-circle-progress="32">
+            <span data-counter="32" data-suffix="%">0%</span>
+          </div>
+
+          <h3>Внедрение дизайн-ревью</h3>
+
+          <ul>
+            <li>ЛК — 41%</li>
+            <li>Конструктор — 20%</li>
+            <li>Доп. сервисы — 28%</li>
+            <li>Подписание ОК — 45%</li>
+            <li>Сайт — 25%</li>
+          </ul>
+        </article>
+
+      </div>
+
+      <div class="team-grid">
+
+        <article class="team-card">
+          <h3>ЛК</h3>
+
+          <div class="progress">
+            <span>Дизайн</span>
+            <strong>82%</strong>
+          </div>
+          <div class="progress-bar">
+            <span data-progress="82"></span>
+          </div>
+
+          <div class="progress">
+            <span>Разработка</span>
+            <strong>41%</strong>
+          </div>
+          <div class="progress-bar">
+            <span data-progress="41"></span>
+          </div>
+
+          <div class="progress">
+            <span>Дизайн-ревью</span>
+            <strong>41%</strong>
+          </div>
+          <div class="progress-bar">
+            <span data-progress="41"></span>
+          </div>
+
+          <div class="team-card__footer">
+            ✓ 7 из 17 сценариев (41%)
+          </div>
+
+          <div class="team-card__challenge">
+            <strong>Вызов</strong>
+            <p>Большой объем сценариев и параллельное развитие продукта</p>
+
+            <strong>Что делаем</strong>
+            <p>
+              Регулярно актуализируем срез внедрения и совместно
+              приоритизируем сценарии с командой
+            </p>
+          </div>
+        </article>
+
+        <article class="team-card">
+          <h3>Конструктор</h3>
+
+          <div class="progress">
+            <span>Дизайн</span>
+            <strong>60%</strong>
+          </div>
+          <div class="progress-bar">
+            <span data-progress="60"></span>
+          </div>
+
+          <div class="progress">
+            <span>Разработка</span>
+            <strong>20%</strong>
+          </div>
+          <div class="progress-bar">
+            <span data-progress="20"></span>
+          </div>
+
+          <div class="progress">
+            <span>Дизайн-ревью</span>
+            <strong>20%</strong>
+          </div>
+          <div class="progress-bar">
+            <span data-progress="20"></span>
+          </div>
+
+          <div class="team-card__footer">
+            ✓ 1 из 5 сценариев (20%)
+          </div>
+
+          <div class="team-card__challenge">
+            <strong>Вызов</strong>
+            <p>Часть сценариев зависит от готовности компонентов ДС</p>
+
+            <strong>Что делаем</strong>
+            <p>
+              Синхронизируем развитие компонентов и внедрение в продукт,
+              чтобы быстро переводить сценарии на ДС после готовности компонентов
+            </p>
+          </div>
+        </article>
+
+        <article class="team-card">
+          <h3>Доп. сервисы</h3>
+
+          <div class="progress">
+            <span>Дизайн</span>
+            <strong>100%</strong>
+          </div>
+          <div class="progress-bar">
+            <span data-progress="100"></span>
+          </div>
+
+          <div class="progress">
+            <span>Разработка</span>
+            <strong>57%</strong>
+          </div>
+          <div class="progress-bar">
+            <span data-progress="57"></span>
+          </div>
+
+          <div class="progress">
+            <span>Дизайн-ревью</span>
+            <strong>28%</strong>
+          </div>
+          <div class="progress-bar">
+            <span data-progress="28"></span>
+          </div>
+
+          <div class="team-card__footer">
+            ✓ 2 из 7 сценариев (29%)
+          </div>
+
+          <div class="team-card__challenge">
+            <strong>Вызов</strong>
+            <p>Накопление задач на этапе дизайн-ревью</p>
+
+            <strong>Что делаем</strong>
+            <p>
+              Используем срез внедрения для выявления узких мест
+              и отдельно разбираем причины задержек
+            </p>
+          </div>
+        </article>
+
+        <article class="team-card">
+          <h3>Подписание ОК</h3>
+
+          <div class="progress">
+            <span>Дизайн</span>
+            <strong>100%</strong>
+          </div>
+          <div class="progress-bar">
+            <span data-progress="100"></span>
+          </div>
+
+          <div class="progress">
+            <span>Разработка</span>
+            <strong>45%</strong>
+          </div>
+          <div class="progress-bar">
+            <span data-progress="45"></span>
+          </div>
+
+          <div class="progress">
+            <span>Дизайн-ревью</span>
+            <strong>45%</strong>
+          </div>
+          <div class="progress-bar">
+            <span data-progress="45"></span>
+          </div>
+
+          <div class="team-card__footer">
+            ✓ 4 из 11 сценариев (36%)
+          </div>
+
+          <div class="team-card__challenge">
+            <strong>Вызов</strong>
+            <p>
+              Значительная часть сценариев находится между реализацией
+              и дизайн-ревью
+            </p>
+
+            <strong>Что делаем</strong>
+            <p>
+              Проводим регулярные синки с дизайнером направления и разработчиками,
+              совместно определяем приоритеты и потребность в ресурсах тестирования
+            </p>
+          </div>
+        </article>
+
+        <article class="team-card">
+          <h3>Сайт</h3>
+
+          <div class="progress">
+            <span>Дизайн</span>
+            <strong>100%</strong>
+          </div>
+          <div class="progress-bar">
+            <span data-progress="100"></span>
+          </div>
+
+          <div class="progress">
+            <span>Разработка</span>
+            <strong>48%</strong>
+          </div>
+          <div class="progress-bar">
+            <span data-progress="48"></span>
+          </div>
+
+          <div class="progress">
+            <span>Дизайн-ревью</span>
+            <strong>25%</strong>
+          </div>
+          <div class="progress-bar">
+            <span data-progress="25"></span>
+          </div>
+
+          <div class="team-card__footer">
+            ✓ 7 из 27 сценариев (26%)
+          </div>
+
+          <div class="team-card__challenge">
+            <strong>Вызов</strong>
+            <p>
+              Большой объем задач находится на этапе доработок после дизайн-ревью
+            </p>
+
+            <strong>Что делаем</strong>
+            <p>
+              Для ускорения продвижения задач к работе подключен тимлид дизайна
+            </p>
+          </div>
+        </article>
+
+      </div>
+
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+
+    <span class="hero__label">
+      Продуктовая работа
+    </span>
+
+      <h2>Масштаб задач за период</h2>
+
+      <div class="workload-summary">
+        <article class="workload-stat">
+          <strong>364</strong>
+          <span>задачи всего</span>
+        </article>
+
+        <article class="workload-stat">
+          <strong>291</strong>
+          <span>закрыта</span>
+        </article>
+
+        <article class="workload-stat">
+          <strong>80%</strong>
+          <span>completion rate</span>
+        </article>
+      </div>
+
+      <div class="chart-card">
+        <canvas id="workloadChart"></canvas>
+      </div>
+
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+
+      <span class="hero__label">Фаза&nbsp;2</span>
+
+      <h2>Стабилизация и&nbsp;расширение&nbsp;ДС</h2>
+
+      <div class="feature-block">
+
+        <div class="feature-block__content">
+          <h3>Развитие начала раньше</h3>
+
+          <p>
+            Формально этап запланирован на&nbsp;второе полугодие, но&nbsp;часть работ уже&nbsp;выполняется по&nbsp;мере появления потребностей продуктов.
+          </p>
+
+          <p>
+            Фокус —&nbsp;закрывать новые сценарии через развитие дизайн-системы, а&nbsp;не&nbsp;через локальные решения и&nbsp;кастом.
+          </p>
+        </div>
+
+        <div class="feature-block__tags">
+
+          <span>Skeleton</span>
+          <span>Carousel</span>
+          <span>Creatable Select</span>
+          <span>Creatable Multiselect</span>
+          <span>Цветовые токены</span>
+          <span>Текстовые стили</span>
+          <span>Link</span>
+          <span>Иконки</span>
+
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+
+      <span class="hero__label">Фаза&nbsp;2</span>
+
+      <h2>Развитие Slots в&nbsp;Figma</h2>
+
+      <div class="timeline">
+
+        <div class="timeline__line"></div>
+
+        <div class="timeline__item completed">
+          <div class="timeline__dot"></div>
+          <div class="timeline__card">Dialog</div>
+        </div>
+
+        <div class="timeline__item completed">
+          <div class="timeline__dot"></div>
+          <div class="timeline__card">Bottom Sheet</div>
+        </div>
+
+        <div class="timeline__item completed">
+          <div class="timeline__dot"></div>
+          <div class="timeline__card">Tabs</div>
+        </div>
+
+        <div class="timeline__item completed">
+          <div class="timeline__dot"></div>
+          <div class="timeline__card">Chips Group</div>
+        </div>
+
+        <div class="timeline__item completed">
+          <div class="timeline__dot"></div>
+          <div class="timeline__card">Accordion</div>
+        </div>
+
+        <div class="timeline__item completed">
+          <div class="timeline__dot"></div>
+          <div class="timeline__card">Selection Group</div>
+        </div>
+
+        <div class="timeline__item completed">
+          <div class="timeline__dot"></div>
+          <div class="timeline__card">Menu</div>
+        </div>
+
+        <div class="timeline__item current">
+          <div class="timeline__dot"></div>
+          <div class="timeline__card">Card</div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+
+    <span class="hero__label">
+      Другие задачи
+    </span>
+
+      <h2>Экспертная поддержка команды</h2>
+
+      <div class="expertise-grid">
+
+        <article class="expertise-card">
+          <span class="expertise-card__check">✓</span>
+          <h3>Мастер-класс по&nbsp;созданию иконок</h3>
+        </article>
+
+        <article class="expertise-card">
+          <span class="expertise-card__check">✓</span>
+          <h3>Документация по&nbsp;созданию иконок</h3>
+        </article>
+
+        <article class="expertise-card">
+          <span class="expertise-card__check">✓</span>
+          <h3>Демо ВП&nbsp;для&nbsp;дизайнеров</h3>
+        </article>
+
+        <article class="expertise-card">
+          <span class="expertise-card__check">✓</span>
+          <h3>Рассказ про&nbsp;Slots в&nbsp;Figma</h3>
+        </article>
+
+        <article class="expertise-card">
+          <span class="expertise-card__check">✓</span>
+          <h3>Приборка дизайн-артефактов</h3>
+        </article>
+
+        <article class="expertise-card">
+          <span class="expertise-card__check">✓</span>
+          <h3>Офлайн-мозгоштурм по&nbsp;ЛК&nbsp;физлица</h3>
+        </article>
+
+        <article class="expertise-card">
+          <span class="expertise-card__check">✓</span>
+          <h3>Прототипы концепции ЛК&nbsp;физлица</h3>
+        </article>
+
+        <article class="expertise-card">
+          <span class="expertise-card__check">✓</span>
+          <h3>Консультации по&nbsp;компонентам&nbsp;ДС</h3>
+        </article>
+
+        <article class="expertise-card">
+          <span class="expertise-card__check">✓</span>
+          <h3>Консультация по&nbsp;UX/UI-решениям</h3>
+        </article>
+
+      </div>
+
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+
+    <span class="hero__label">
+      Другие задачи
+    </span>
+
+      <h2>Развитие frontend-экспертизы</h2>
+
+      <div class="frontend-learning">
+
+        <div class="frontend-learning__line"></div>
+
+        <article class="frontend-project">
+          <div class="frontend-project__dot"></div>
+
+          <div class="frontend-project__content">
+            <h3>«Оно тебе надо»</h3>
+
+            <p>
+              Первый полноценный проект на HTML и CSS. Семантическая верстка, работа со&nbsp;структурой страницы,
+              типографикой, изображениями и макетом.
+            </p>
+
+            <a
+                    href="https://dariaeremina89-oss.github.io/ono-tebe-nado-fd/"
+                    target="_blank"
+            >
+              Открыть проект →
+            </a>
+          </div>
+        </article>
+
+        <article class="frontend-project">
+          <div class="frontend-project__dot"></div>
+
+          <div class="frontend-project__content">
+            <h3>«Посмотри в&nbsp;окно»</h3>
+
+            <p>
+              Поля формы, их&nbsp;кастомизация и&nbsp;состояния. Параллельно использовала знания при&nbsp;проведении
+              дизайн-ревью компонентов в&nbsp;рабочих задачах.
+            </p>
+
+            <a
+                    href="https://dariaeremina89-oss.github.io/posmotri-v-okno-fd/"
+                    target="_blank"
+            >
+              Открыть проект →
+            </a>
+          </div>
+        </article>
+
+        <article class="frontend-project">
+          <div class="frontend-project__dot"></div>
+
+          <div class="frontend-project__content">
+            <h3>«Сложно сосредоточиться»</h3>
+
+            <p>
+              Первый адаптивный проект. Grid, CSS-переменные, светлая и&nbsp;темная темы, медиазапросы и&nbsp;адаптивная верстка.
+            </p>
+
+            <a
+                    href="https://dariaeremina89-oss.github.io/slozhno-sosredotochitsya-fd/"
+                    target="_blank"
+            >
+              Открыть проект →
+            </a>
+          </div>
+        </article>
+
+        <article class="frontend-project">
+          <div class="frontend-project__dot"></div>
+
+          <div class="frontend-project__content">
+            <h3>«Закрывающий тег»</h3>
+
+            <p>
+              SVG, анимация, dialog, состояния элементов, адаптивность, оптимизация изображений и&nbsp;работа по&nbsp;Pixel Perfect.
+            </p>
+
+            <a
+                    href="https://dariaeremina89-oss.github.io/zakrivayuschiy-teg-f/"
+                    target="_blank"
+            >
+              Открыть проект →
+            </a>
+          </div>
+        </article>
+
+        <article class="frontend-project frontend-project--current">
+          <div class="frontend-project__dot"></div>
+
+          <div class="frontend-project__content">
+            <h3>Сейчас изучаю JavaScript</h3>
+
+            <p>
+              Цель обучения —&nbsp;лучше понимать ограничения реализации, проектировать более жизнеспособные решения и&nbsp;эффективнее взаимодействовать с&nbsp;разработкой.
+            </p>
+          </div>
+        </article>
+
+      </div>
+
+    </div>
+  </section>
+
+  <section class="section section--final">
+    <div class="container">
+
+    <span class="hero__label">
+      Фокус второго полугодия
+    </span>
+
+      <h2>Что хочется развивать дальше</h2>
+
+      <div class="future-directions">
+
+        <div class="future-direction">
+          <div class="future-direction__title">
+            🚀 Продуктовое мышление
+          </div>
+
+          <p>
+            Участвовать в&nbsp;проектировании новых направлений и&nbsp;пользовательских сценариев, а не&nbsp;только в&nbsp;их&nbsp;реализации
+          </p>
+        </div>
+
+        <div class="future-direction">
+          <div class="future-direction__title">
+            🧩 Системный подход
+          </div>
+
+          <p>
+            Развивать решения на&nbsp;уровне паттернов и&nbsp;продуктового опыта, а&nbsp;не&nbsp;отдельных экранов и&nbsp;компонентов
+          </p>
+        </div>
+
+        <div class="future-direction">
+          <div class="future-direction__title">
+            ⚙️ Техническая экспертиза
+          </div>
+
+          <p>
+            Продолжать изучение frontend-разработки и&nbsp;использовать новые знания в&nbsp;ежедневной работе
+          </p>
+        </div>
+
+      </div>
+
+      <blockquote class="future-quote">
+        Во&nbsp;втором полугодии хочется сохранить баланс между развитием дизайн-системы и&nbsp;продуктовой работой: участвовать в&nbsp;формировании новых решений на&nbsp;ранних этапах, развивать системный подход к&nbsp;проектированию и&nbsp;продолжать расширять техническую экспертизу
+      </blockquote>
+
+    </div>
+  </section>
+
+</main>
+
+<script src="./script.js"></script>
+
+</body>
+</html>
